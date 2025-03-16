@@ -1,5 +1,5 @@
 
-import { Github, Linkedin, Mail, Shield } from 'lucide-react';
+import { Github, Linkedin, Mail } from 'lucide-react';
 
 const Index = () => {
   return (
@@ -27,8 +27,12 @@ const Index = () => {
             <div className="order-1 md:order-2 flex justify-center md:justify-end">
               <div className="relative">
                 <div className="w-64 h-64 md:w-80 md:h-80 rounded-full border-2 border-neon-green animate-glow flex items-center justify-center overflow-hidden">
-                  <div className="w-56 h-56 md:w-72 md:h-72 rounded-full bg-cyber-gray border-4 border-neon-pink overflow-hidden flex items-center justify-center">
-                    <Shield className="text-gray-700 w-28 h-28 md:w-40 md:h-40" />
+                  <div className="w-56 h-56 md:w-72 md:h-72 rounded-full overflow-hidden flex items-center justify-center">
+                    <img 
+                      src="/lovable-uploads/c622dd4e-dd99-41c8-935f-739e841ba3c1.png" 
+                      alt="Cybersecurity Intelligence Dashboard" 
+                      className="w-full h-full object-cover"
+                    />
                   </div>
                 </div>
               </div>
