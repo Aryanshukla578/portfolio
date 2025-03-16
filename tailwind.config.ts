@@ -1,3 +1,4 @@
+
 import type { Config } from "tailwindcss";
 
 export default {
@@ -52,15 +53,15 @@ export default {
 					DEFAULT: 'hsl(var(--card))',
 					foreground: 'hsl(var(--card-foreground))'
 				},
-				sidebar: {
-					DEFAULT: 'hsl(var(--sidebar-background))',
-					foreground: 'hsl(var(--sidebar-foreground))',
-					primary: 'hsl(var(--sidebar-primary))',
-					'primary-foreground': 'hsl(var(--sidebar-primary-foreground))',
-					accent: 'hsl(var(--sidebar-accent))',
-					'accent-foreground': 'hsl(var(--sidebar-accent-foreground))',
-					border: 'hsl(var(--sidebar-border))',
-					ring: 'hsl(var(--sidebar-ring))'
+				neon: {
+					blue: '#00a8ff',
+					green: '#00ff8b',
+					pink: '#ff2b9d'
+				},
+				cyber: {
+					dark: '#0c0c0c',
+					black: '#000000',
+					gray: '#1e1e1e'
 				}
 			},
 			borderRadius: {
@@ -84,11 +85,31 @@ export default {
 					to: {
 						height: '0'
 					}
+				},
+				'glow': {
+					'0%, 100%': { 
+						boxShadow: '0 0 15px #00ff8b, 0 0 30px #00ff8b' 
+					},
+					'50%': { 
+						boxShadow: '0 0 25px #00ff8b, 0 0 50px #00ff8b' 
+					}
+				},
+				'border-glow': {
+					'0%, 100%': { 
+						boxShadow: '0 0 5px #00a8ff, 0 0 15px #00a8ff',
+						borderColor: '#00a8ff'
+					},
+					'50%': { 
+						boxShadow: '0 0 15px #00a8ff, 0 0 30px #00a8ff',
+						borderColor: '#0082c4'
+					}
 				}
 			},
 			animation: {
 				'accordion-down': 'accordion-down 0.2s ease-out',
-				'accordion-up': 'accordion-up 0.2s ease-out'
+				'accordion-up': 'accordion-up 0.2s ease-out',
+				'glow': 'glow 2s ease-in-out infinite',
+				'border-glow': 'border-glow 2s ease-in-out infinite'
 			}
 		}
 	},
