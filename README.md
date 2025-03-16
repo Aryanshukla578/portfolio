@@ -1,14 +1,10 @@
 # Welcome to my project
 
 ## Project info
-
+My project link:https://portfolio-eta-wheat-58.vercel.app/
 ## How can I edit this code?
 
 There are several ways of editing your application.
-
-**Use Lovable**
-
-Simply visit the [Lovable Project](https://lovable.dev/projects/851b86f8-c7c0-4fa3-9f19-0c8b97c71e18) and start prompting.
 **Use GitHub Codespaces**
 
 - Navigate to the main page of your repository.
